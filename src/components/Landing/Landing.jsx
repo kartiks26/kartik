@@ -13,16 +13,16 @@ function Landing() {
           NGO and startups. Proficient in JavaScript and React.
         </p>
         <div className="SocialIcons">
-          <a>
+          <a href="http://www.instagram.com/pratikartik" target="_blank">
             <img src="/assets/instagram.svg" />
           </a>
-          <a>
+          <a href="https://github.com/kartiks26" target="_blank">
             <img src="/assets/github.svg" />
           </a>
-          <a>
+          <a href="https://twitter.com/pratikartik" target="_blank">
             <img src="/assets/twitter.svg" />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/pratikartik/" target="_blank">
             <img src="/assets/linkedin.svg" />
           </a>
         </div>
