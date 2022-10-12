@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SkillCard from "./SkillCard";
 import "./skills.scss";
 
 function Skills() {
+  const [skills, setSkills] = React.useState([]);
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/kartiks26/kartik/master/public/data/skillsData.json"
+    ).then((res) => {
+      res.json().then((data) => {
+        setSkills(data.data);
+      });
+    });
+  }, []);
   return (
     <div className="skills">
       <div className="skillsHeader">
@@ -10,7 +20,7 @@ function Skills() {
         <h2>Specialized In .</h2>
       </div>
       <div className="skillsCards">
-        {[1, 2, 3].map((skill) => (
+        {skills.map((skill) => (
           <SkillCard />
         ))}
       </div>
