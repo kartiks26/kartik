@@ -9,6 +9,7 @@ function Skills() {
       "https://raw.githubusercontent.com/kartiks26/kartik/master/public/data/skillsData.json"
     ).then((res) => {
       res.json().then((data) => {
+        console.log(data.data);
         setSkills(data.data);
       });
     });
@@ -21,7 +22,7 @@ function Skills() {
       </div>
       <div className="skillsCards">
         {skills.map((skill) => (
-          <SkillCard />
+          <SkillCard skill={skill} />
         ))}
       </div>
     </div>

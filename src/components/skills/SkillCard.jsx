@@ -1,14 +1,11 @@
 import React from "react";
 import "./skills.scss";
-function SkillCard() {
+function SkillCard({ skill }) {
   return (
     <div className="skillsCard">
-      <img src="/assets/webIcon.svg" />
-      <h6>Application Development</h6>
-      <p>
-        Standard designing, building, and implementing your applications with
-        documentation.
-      </p>
+      <img src={skill.img} />
+      <h6>{skill.Title}</h6>
+      <p>{skill.description}</p>
     </div>
   );
 }
