@@ -14,7 +14,7 @@ function Footer() {
           <img src="/assets/twitter.svg" />
         </a>
         <a href="https://www.linkedin.com/in/pratikartik/" target="_blank">
-          <img src="/assets/linkedin.svg" />
+          <img src="/assets/linkedIn.svg" />
         </a>
       </div>
       <h6> @ 2022 - Kartik</h6>
