@@ -1,6 +1,9 @@
 import React from "react";
 import "./header.scss";
 function Header() {
+  const handelTheme = () => {
+    const body = document.querySelector("body");
+  };
   return (
     <div className="header">
       <div className="logo">
@@ -22,8 +25,16 @@ function Header() {
         </a>
       </div>
       <div className="buttons">
-        <img src="/assets/moon.svg" />
-        <button className="btn">Resume</button>
+        {/* <img src="/assets/moon.svg" onClick={handelTheme} /> */}
+        <button
+          onClick={() => {
+            // download resume
+            window.open("/resume.pdf");
+          }}
+          className="btn"
+        >
+          Resume
+        </button>
       </div>
     </div>
   );
