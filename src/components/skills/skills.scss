@@ -1,0 +1,59 @@
+@import "../../constant/colors.scss";
+.skills {
+  min-height: 70vh;
+  background-color: $Tertiary-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.skillsHeader {
+  display: flex;
+  flex-direction: column;
+  p {
+    color: $secondary-color;
+    font-family: $fontFamily;
+  }
+  h2 {
+    transform: translateX(-20px) translateY(-30px);
+    font-size: 2.5rem;
+    color: $primary-color;
+    font-family: $fontFamily;
+    text-align: center;
+  }
+}
+.skillsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+// Skills Card
+
+.skillsCard {
+  display: flex;
+  aspect-ratio: 2/1;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $TextColor;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  h6 {
+    font-size: 1.2rem;
+    font-family: $fontFamily;
+    text-align: center;
+  }
+  p {
+    font-family: $fontFamily;
+    color: $secondary-color;
+    text-align: center;
+  }
+}

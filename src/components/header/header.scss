@@ -1,0 +1,56 @@
+@import "../../constant/colors.scss";
+.header {
+  padding: 18px 48px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  img {
+    width: 38px;
+  }
+  h2 {
+    font-family: $fontFamily;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+}
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  a {
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    h4 {
+      font-family: $fontFamily;
+      font-weight: 100;
+    }
+  }
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  font-family: $fontFamily;
+  button {
+    background-color: transparent;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #232e3543;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 90%;
+    padding: 10px;
+    height: 40px;
+  }
+  .Navigation {
+    display: none;
+  }
+}
