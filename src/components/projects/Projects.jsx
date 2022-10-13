@@ -20,7 +20,7 @@ function Projects() {
             link: "https://expenseit.vercel.app/",
           },
         ].map((item) => (
-          <div>
+          <div className="ProjectCard">
             <iframe src={item.link} />
             <div>
               <h5>{item.title}</h5>
@@ -41,7 +41,7 @@ function Projects() {
             link: "https://expenseit.vercel.app/",
           },
         ].map((item) => (
-          <div>
+          <div className="ProjectCard">
             <a href={item.link} target="popup">
               <img
                 src={item.img}
