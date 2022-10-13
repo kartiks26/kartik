@@ -69,6 +69,19 @@ iframe {
   -webkit-transform: scale(0.75);
   -webkit-transform-origin: 0 0;
 }
+.TechStack {
+  display: flex;
+  flex-wrap: wrap;
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: $secondary-color;
+    font-weight: 500;
+    font-family: $fontFamily;
+  }
+}
 @media screen and (max-width: 800px) {
   .projects {
     display: none;

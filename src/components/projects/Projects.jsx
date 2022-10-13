@@ -23,6 +23,11 @@ function Projects() {
               <a href={item.link} target="_popup">
                 <h5>{item.title}</h5>
               </a>
+              <div className="TechStack">
+                <button>React</button>
+                <button>Express</button>
+                <button>Firebase</button>
+              </div>
             </div>
           </div>
         ))}
