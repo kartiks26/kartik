@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./projects.scss";
 function Projects() {
+  const [projects, setProjects] = React.useState([]);
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/kartiks26/kartik/master/public/data/projects.json"
+    )
+      .then((response) => response.json())
+      .then((data) => setProjects(data.data));
+  }, []);
   return (
     <div className="project">
       <div>
@@ -8,39 +16,19 @@ function Projects() {
         <h4>Featured Portfolio</h4>
       </div>
       <div className="projects">
-        {[
-          {
-            title: "Music App",
-            img: "/assets/project1.jpg",
-            link: "https://musicapp-kohl.vercel.app/",
-          },
-          {
-            title: "Expense Tracker",
-            img: "/assets/project2.jpg",
-            link: "https://expenseit.vercel.app/",
-          },
-        ].map((item) => (
+        {projects.map((item) => (
           <div className="ProjectCard">
             <iframe src={item.link} />
             <div>
-              <h5>{item.title}</h5>
+              <a href={item.link} target="_popup">
+                <h5>{item.title}</h5>
+              </a>
             </div>
           </div>
         ))}
       </div>
       <div className="MobileProjects">
-        {[
-          {
-            title: "Music App",
-            img: "/assets/project1.jpg",
-            link: "https://musicapp-kohl.vercel.app/",
-          },
-          {
-            title: "Expense Tracker",
-            img: "/assets/project2.jpg",
-            link: "https://expenseit.vercel.app/",
-          },
-        ].map((item) => (
+        {projects.map((item) => (
           <div className="ProjectCard">
             <a href={item.link} target="popup">
               <img

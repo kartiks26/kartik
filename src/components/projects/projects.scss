@@ -40,6 +40,14 @@
   margin-top: 30px;
   border: 1px solid rgba(0, 0, 0, 0.201);
   border-radius: 20px;
+  a {
+    text-decoration: none;
+    &:hover {
+      h5 {
+        color: $primary-color;
+      }
+    }
+  }
   iframe {
     transform: translateX(0px);
     border: none;
