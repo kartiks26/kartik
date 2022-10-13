@@ -4,7 +4,7 @@
       "id": "1",
       "Title": "React",
       "description": "Design and implementation of user interfaces (UIs) and UI components using React, a front-end JavaScript library",
-      "img": "/assets/webIcon.svg"
+      "img": "/assets/react.svg"
     },
       {
       "id": "2",
@@ -15,7 +15,7 @@
       "id": "3",
       "Title": "Node Js",
       "description": "Proficiant in Node js , Express Js , NO sql and SQL databases.",
-      "img": "/assets/webIcon.svg"
+      "img": "/assets/node.svg"
     }
   ]
 }
