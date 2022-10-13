@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "title": "Music App",
+      "img": "/assets/project1.jpg",
+      "link": "https://musicapp-kohl.vercel.app/"
+    },
+    {
+      "title": "Expense Tracker",
+      "img": "/assets/project2.jpg",
+      "link": "https://expenseit.vercel.app/"
+    }
+  ]
+}
