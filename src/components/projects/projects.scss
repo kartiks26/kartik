@@ -2,17 +2,20 @@
 .project {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0 20px;
   margin-top: 40px;
-  margin-left: 1s0px;
+  margin-left: 10px;
+  margin-bottom: 20px;
   h4 {
-    color: $primary-color;
-    font-size: 2.8rem;
-    font-weight: 500;
+    font-size: 3rem;
     margin: 0;
+    font-family: $fontFamily;
     margin-bottom: 30px;
   }
   h6 {
+    font-size: 0.66rem;
+    letter-spacing: 2px;
+    font-weight: 200;
     color: $secondary-color;
     font-weight: 500;
     font-family: $fontFamily;
@@ -23,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-bottom: 40px;
   h5 {
     color: $secondary-color;
     font-size: 1.8rem;

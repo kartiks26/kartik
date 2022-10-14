@@ -14,11 +14,13 @@
   p {
     color: $secondary-color;
     font-family: $fontFamily;
+    font-size: 0.66rem;
+    letter-spacing: 2px;
+    font-weight: 200;
   }
   h2 {
     transform: translateX(-20px) translateY(-30px);
-    font-size: 2.5rem;
-    color: $primary-color;
+    font-size: 3rem;
     font-family: $fontFamily;
     text-align: center;
   }

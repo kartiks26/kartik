@@ -5,6 +5,9 @@
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
+  background-color: $Tertiary-color;
+  padding: 100px 0;
 }
 .leftGrid {
   min-width: 20%;
@@ -15,8 +18,7 @@
     font-weight: 200;
   }
   h1 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
     letter-spacing: 1px;
   }
 }
@@ -30,6 +32,9 @@
     font-size: 1rem;
     font-weight: 200;
     letter-spacing: 1px;
+    &:hover {
+      color: $primary-color !important;
+    }
   }
 }
 
@@ -72,7 +77,7 @@
   margin: 30px 0px;
 }
 .companyDesc {
-  min-height: 400px;
+  min-height: 200px;
 }
 @media screen and (max-width: 768px) {
   .leftGrid {
