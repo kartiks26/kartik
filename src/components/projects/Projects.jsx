@@ -3,9 +3,7 @@ import "./projects.scss";
 function Projects() {
   const [projects, setProjects] = React.useState([]);
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/kartiks26/kartik/master/public/data/projects.json"
-    )
+    fetch("/data/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data.data));
   }, []);
