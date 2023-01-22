@@ -1,0 +1,22 @@
+{
+  "edu": [
+    {
+      "title": "Savitribai phule pune university",
+      "smDesc": "B.E. in Computer Engineering",
+      "lgDesc": "Currently in the 4th year of a Computer Engineering program with a focus on Computer Science, I have maintained an average SGPA of 8.5 throughout my studies. My coursework includes advanced topics in programming, data structures and algorithms, computer architecture, and software engineering. In addition, I have gained experience in various programming languages and software development tools. I have also gained experience in full-stack development, including proficiency in front-end technologies such as HTML, CSS, and JavaScript, as well as back-end technologies such as Node.js, Express, and MongoDB. I am eager to apply my knowledge and skills to real-world projects and am looking for opportunities to further develop my expertise in the field of computer engineering and full-stack development.",
+      "fromTo": "2019 - 2023"
+    },
+    {
+      "title": "HSC / 12th",
+      "smDesc": "Science with PCMB",
+      "lgDesc": "I completed my 12th/HSC education and achieved a score of 83.20%. My subjects of study were PCMB (Physics, Chemistry, Mathematics, and Biology) which allowed me to gain a strong foundation in the natural sciences and mathematics. Through my studies, I developed a deep understanding of the fundamental concepts and principles of these subjects and have honed my analytical and problem-solving skills. This strong academic performance demonstrates my ability to work diligently and effectively towards achieving academic success. I am excited to continue my education in a related field and am eager to apply my knowledge and skills to real-world challenges.",
+      "fromTo": "2017 - 2019"
+    },
+    {
+      "title": "SSC / 10th",
+      "smDesc": "Schooling from state board",
+      "lgDesc": "I completed my 10th/SSC education and achieved a score of 93.2%. This strong academic performance demonstrates my ability to work diligently and effectively towards achieving academic success. During my studies, I developed a strong foundation in the core subjects such as Mathematics, Science, English and Social Science. My consistent high performance in these subjects has given me the necessary skills to excel in higher education. My strong work ethic and dedication to learning has prepared me well for the next step in my educational journey.",
+      "fromTo": "2016 - 2017"
+    }
+  ]
+}

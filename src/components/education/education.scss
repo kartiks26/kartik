@@ -1,0 +1,89 @@
+@import "../../constant/colors.scss";
+.eduContainerMain {
+  font-family: $fontFamily;
+  background-color: $Tertiary-color;
+  padding: 70px 40px;
+}
+.eduHeader {
+  h6 {
+    font-size: 0.66rem;
+    letter-spacing: 2px;
+    font-weight: 200;
+  }
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+}
+.eduContainer {
+  display: flex;
+  width: 92%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.eduBodyL {
+  .educationSection {
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    h4 {
+      letter-spacing: 1px;
+      font-weight: 550;
+      font-size: 1.4rem;
+      padding: 0;
+      margin: 0px;
+    }
+    h5 {
+      margin: 10px 0;
+
+      font-size: 0.8rem;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    p {
+      font-size: 0.8rem;
+      font-weight: 100;
+      letter-spacing: 1px;
+    }
+  }
+}
+.active {
+  color: $primary-color !important;
+}
+.eduBodyR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  line-height: 25px;
+  max-width: 500px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .eduContainerMain {
+    padding: 40px 20px;
+  }
+  .eduContainer {
+    width: 100%;
+  }
+  .eduBodyR {
+    font-size: 0.8rem;
+    line-height: 22px;
+    letter-spacing: 1px;
+  }
+  .eduBodyL {
+    display: flex;
+    overflow-y: scroll;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    .educationSection {
+      min-width: 200px;
+      margin-left: 0px;
+      h4 {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
