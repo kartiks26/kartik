@@ -1,5 +1,21 @@
 {
   "data": [
+        {
+      "id": "0",
+      "CompanyName": "Zeblok",
+
+      "post": "Fullstack Developer",
+      "location": "Remote",
+      "start_date": "Feb 2022",
+      "end_date": "Present",
+      "type": "Internship",
+      "Technology": ["React", "Javascript","Node JS","Express Js"],
+      "description": [
+        "I worked on in house platform named <a href ='https://www.merakilearn.org/' target=`_blank` >merakilearn.org</a> which teaches student around 30k Students per month",
+        "Managed Team of 4 - 5 apprentice/Interns , Worked with different volunteers from different nations",
+        "Worked on Features Like course content , class and batch feature , Assessment features and Progress Track features"
+      ]
+    },
     {
       "id": "1",
       "CompanyName": "Navgurukul",
@@ -7,7 +23,7 @@
       "post": "Frontend Developer",
       "location": "Remote",
       "start_date": "Feb 2022",
-      "end_date": "Present",
+      "end_date": "March 2023",
       "type": "Internship",
       "Technology": ["React", "Javascript"],
       "description": [
@@ -17,7 +33,7 @@
       ]
     },
     {
-      "id": "1",
+      "id": "2",
       "CompanyName": "SOFODEL",
       "post": "Fullstack Developer",
       "location": "Remote",
