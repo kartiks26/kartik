@@ -11,7 +11,7 @@ function Header() {
         <h2>Kartik</h2>
       </div>
       <div className="Navigation">
-        <a>
+        {/* <a>
           <h4>Skills</h4>
         </a>
         <a>
@@ -22,7 +22,7 @@ function Header() {
         </a>
         <a>
           <h4>Experience</h4>
-        </a>
+        </a> */}
       </div>
       <div className="buttons">
         {/* <img src="/assets/moon.svg" onClick={handelTheme} /> */}

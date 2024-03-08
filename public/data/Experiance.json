@@ -2,12 +2,37 @@
   "data": [
     {
       "id": "1",
+      "CompanyName": "Zeblok Computational",
+
+      "post": "Fullstack Developer",
+      "location": "Remote",
+      "start_date": "Jan 2023",
+      "end_date": "current",
+      "type": "Full Time",
+      "Technology": [
+        "React",
+        "Angular",
+        "Nodejs",
+        "Javascript",
+        "Express",
+        "MongoDB",
+        "Docker",
+        "Kubernetes"
+      ],
+      "description": [
+        "I am working on diffrent range of products in zeblok like cli based, mlops and other.",
+        "Working here comes with everyday learning and its exciting to work at startup.",
+        "working here with data scientists , artificial intelligence engineers and devops team gives wide experience about the global market."
+      ]
+    },
+    {
+      "id": "1",
       "CompanyName": "Navgurukul",
 
       "post": "Frontend Developer",
       "location": "Remote",
       "start_date": "Feb 2022",
-      "end_date": "Present",
+      "end_date": "Jan 2023",
       "type": "Internship",
       "Technology": ["React", "Javascript"],
       "description": [

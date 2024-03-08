@@ -9,7 +9,7 @@ function Landing() {
           Kartik <section>Shikhare.</section>
         </h1>
         <p>
-          Creative front-end developer with more than +1 years of experience in
+          Creative front-end developer with more than 2+ years of experience in
           NGO and startups. Proficient in JavaScript and React.
         </p>
         <div className="SocialIcons">

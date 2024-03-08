@@ -25,6 +25,8 @@ function Projects() {
                 <button>React</button>
                 <button>Express</button>
                 <button>Firebase</button>
+                <button>MongoDb</button>
+                <button>Node JS</button>
               </div>
             </div>
           </div>
